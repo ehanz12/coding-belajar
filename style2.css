@@ -29,3 +29,25 @@ body {
     color: var(--secondary-bg);
     transition: .3s ease-in-out;
 }
+.biodata {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 560px) {
+    .biodata{
+        width: 80%;
+    }
+    th {
+        font-size: 3em;
+    }
+    td {
+        font-size: 2em;
+    }
+    .hayu {
+        padding: 16px;
+        font-size: 2em;
+    }
+}
